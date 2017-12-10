@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gradle-Java-Plugin.iml" filepath="$PROJECT_DIR$/Gradle-Java-Plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Java-Plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Java-Plugin_main.iml" group="Gradle-Java-Plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Java-Plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Java-Plugin_test.iml" group="Gradle-Java-Plugin" />
+    </modules>
+  </component>
+</project>

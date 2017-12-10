@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+}
+
+apply plugin: 'java-gradle-plugin'
+apply plugin: 'maven-publish'
+
+group = 'com.shubham.plugin'
+version = '0.1.0'
+
+
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    testCompile 'junit:junit:4.12'
+}
+
+gradlePlugin {
+  plugins {
+    javaGradlePlugin {
+      id = 'hello-world-shubham'
+      implementationClass = 'com.shubham.plugin.YourPlugin'
+    }
+  }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
